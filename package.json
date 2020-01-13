@@ -84,7 +84,7 @@
     "gl-plot2d": "^1.4.2",
     "gl-plot3d": "git://github.com/gl-vis/gl-plot3d.git#0d7b8eeec0f9a523830aa390196cdf807750e991",
     "gl-pointcloud2d": "^1.0.2",
-    "gl-scatter3d": "^1.2.2",
+    "gl-scatter3d": "git://github.com/gl-vis/gl-scatter3d.git#ecf2a1d005d5417566343bd83defed23db48b550",
     "gl-select-box": "^1.0.3",
     "gl-spikes2d": "^1.0.2",
     "gl-streamtube3d": "^1.4.0",
