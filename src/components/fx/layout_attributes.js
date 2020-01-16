@@ -44,7 +44,20 @@ module.exports = {
     dragmode: {
         valType: 'enumerated',
         role: 'info',
-        values: ['zoom', 'pan', 'select', 'lasso', 'orbit', 'turntable', false],
+        values: [
+            'zoom',
+            'pan',
+            'select',
+            'lasso',
+            'orbit',
+            'turntable',
+            'create-shape',
+            'delete-shape',
+            'rotate-shape',
+            'scale-shape',
+            'move-shape',
+            false
+        ],
         dflt: 'zoom',
         editType: 'modebar',
         description: [
