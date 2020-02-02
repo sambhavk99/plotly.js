@@ -136,10 +136,16 @@ proto.tryCreatePlot = function() {
     try {
         scene.glplot = createPlot(opts);
     } catch(e) {
+
+        console.log('e1:', e)
+
         failed++;
         try { // try second time to fix issue with Chrome 77 https://github.com/plotly/plotly.js/issues/4233
             scene.glplot = createPlot(opts);
         } catch(e) {
+
+            console.log('e2:', e)
+
             failed++;
         }
     }
